@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: #697565;
+}
+
+.left-links, .right-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
+
+.login, .sign-up {
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #3C3D37;
+    color: white;
+    font-size: 16px;
+}
+
+.user-action {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    background-color: white;
+}
+
+.hero {
+    background-color: #1E201E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    color: white;
+}
+
+.video-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.video {
+    width: 350px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid-1, .vid-2 {
+    background-color: white;
+    width: 320px;
+    height: 180px;
+}
