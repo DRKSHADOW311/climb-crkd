@@ -8,8 +8,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 25px;
-    background-color: #697565;
+    margin: 20px 25px;
+    background-color: #313131;
+    border-bottom: 0.5px solid white;
+    padding: 10px 0;
+}
+
+.left-head {
+    display: flex;
+    flex: auto;
 }
 
 .left-links, .right-links {
@@ -24,9 +31,13 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 16px;
-    border-bottom: 2px solid black;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #CA3E47;
 }
 
 .login, .sign-up {
@@ -34,26 +45,32 @@ a {
     height: 30px;
     border-radius: 5px;
     border: 2px solid black;
-    background-color: #3C3D37;
+    background-color: #525252;
     color: white;
     font-size: 16px;
+    font-weight: 800;
+}
+
+.login:hover, .sign-up:hover {
+    color: #CA3E47;
+    background-color: #313131;
 }
 
 .user-action {
     list-style: none;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
 .logo {
-    background-color: white;
+    background-color: red;
+    margin: 0 40px;
 }
 
-.hero {
-    background-color: #1E201E;
+.social-content {
+    background-color: #414141;
     display: flex;
     flex-direction: column;
     justify-content: center;
