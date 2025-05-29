@@ -51,7 +51,7 @@ a:hover {
     font-weight: 800;
 }
 
-.login:hover, .sign-up:hover {
+.login:hover, .sign-up:hover, .hero-button:hover {
     color: #CA3E47;
     background-color: #313131;
 }
@@ -69,6 +69,31 @@ a:hover {
     margin: 0 40px;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 25px;
+    background-color: #CA3E47;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-button {
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: #525252;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
 .social-content {
     background-color: #414141;
     display: flex;
@@ -77,6 +102,7 @@ a:hover {
     align-items: center;
     flex: auto;
     color: white;
+    margin: 20px 25px
 }
 
 .video-embed {
