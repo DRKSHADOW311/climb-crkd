@@ -1,17 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Chakra Petch", sans-serif;
+    background-color: rgb(128, 128, 128);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 25px;
+    margin: 10px 10px;
     background-color: #313131;
-    border-bottom: 0.5px solid white;
     padding: 10px 0;
+    border-radius: 5px;
+    position: sticky;
+    border-bottom: 2px solid red;
 }
 
 .left-head {
@@ -45,15 +48,17 @@ a:hover {
     height: 30px;
     border-radius: 5px;
     border: 2px solid black;
-    background-color: #525252;
+    background-color: #CA3E47;
     color: white;
     font-size: 16px;
     font-weight: 800;
+    font-family:"Chakra Petch"
 }
 
 .login:hover, .sign-up:hover, .hero-button:hover {
     color: #CA3E47;
     background-color: #313131;
+    border: 2px solid red;
 }
 
 .user-action {
@@ -75,34 +80,41 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: 20px 25px;
-    background-color: #CA3E47;
+    background-color: #414141;
     padding: 50px 0;
     gap: 50px;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius: 5px;
 }
 
 .hero h1 {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .hero-button {
     font-size: 20px;
     border: 2px solid black;
-    background-color: #525252;
+    background-color: #CA3E47;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 5px 10px;
+    font-family:"Chakra Petch";
+    font-weight: 700;
 }
 
 .social-content {
-    background-color: #414141;
+    background-color: #525252;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: auto;
     color: white;
-    margin: 20px 25px
+    margin: 20px 25px;
+    text-align: center;
 }
 
 .video-embed {
