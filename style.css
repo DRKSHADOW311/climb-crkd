@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family:"Chakra Petch", sans-serif;
-    background-color: rgb(128, 128, 128);
+    background-color: #BA0000;
 }
 
 header {
@@ -15,8 +15,8 @@ header {
     border-radius: 5px;
     position: sticky;
     top: 10px;
-    border-bottom: 2px solid red;
-    border-top: 2px solid red;
+    border-bottom: 2px solid #6B0000;
+    border-top: 2px solid #6B0000;
 }
 
 .left-head {
@@ -60,7 +60,7 @@ a:hover {
 .login:hover, .sign-up:hover, .hero-button:hover {
     color: #CA3E47;
     background-color: #313131;
-    border: 2px solid red;
+    border: 2px solid #6B0000;
 }
 
 .user-action {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .logo {
-    background-color: red;
+    background-color: #6B0000;
     margin: 0 40px;
 }
 
@@ -85,8 +85,8 @@ a:hover {
     padding: 50px 0;
     height: 600px;
     gap: 50px;
-    border-left: 5px solid red;
-    border-right: 5px solid red;
+    border-left: 5px solid #6B0000;
+    border-right: 5px solid #6B0000;
     border-radius: 5px;
     background-image: url('./resources/hero-temp.png');
     background-size: cover;
@@ -122,8 +122,8 @@ a:hover {
     text-align: center;
     background-color: #414141;
     border-radius: 5px;
-    border-left: 5px solid red;
-    border-right: 5px solid red;
+    border-left: 5px solid #6B0000;
+    border-right: 5px solid #6B0000;
 }
 
 .social-content h2 {
@@ -176,4 +176,11 @@ a:hover {
     width: 300px;
     height: 400px;
     background-color: white;
+}
+
+.featured-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
